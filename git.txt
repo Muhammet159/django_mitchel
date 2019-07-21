@@ -1,0 +1,8 @@
+https://github.com/Muhammet159/django_mitchel.git
+
+
+
+push an existing repository from the command line
+-------------------------------------------------
+git remote add origin https://github.com/Muhammet159/django_mitchel.git
+git push -u origin master

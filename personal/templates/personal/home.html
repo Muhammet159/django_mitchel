@@ -5,7 +5,11 @@
 	<div style="border: 2px solid #000" >
 		<H1>This is the body</H1>
 		<p>Here is there you put stuff should be in the body of your website.</p>
-		{% include 'personal/snippets/body_snippets.html' %}
+
+		{% for account in accounts %}
+			<p>{{account}}</p>
+		{% endfor %}
+		
 	</div>
 
 {% endblock content %}
